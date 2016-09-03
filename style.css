@@ -1,0 +1,52 @@
+html, body, div, header, figure, figcaption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+
+  background: transparent;
+}
+
+.cf:after {
+  content: "";
+  display: block;
+  height: 0px;
+  clear: both;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  font-size: 5vw;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.unit-display, .colon {
+  float: left;
+  text-align: center;
+  font-size: 18vw;
+  font-weight: bold;
+}
+
+.unit-display {
+  width: 30vw;
+}
+
+.colon {
+  width: 5vw;
+}
+
+.unit-name {
+  font-size: 4vw;
+  font-weight: normal;
+}
